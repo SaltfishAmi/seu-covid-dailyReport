@@ -2,6 +2,9 @@
 
 Automates the process of your daily health report on the Southeast University eHall, during the COVID-19 pandemic.
 
+inspired by: https://github.com/jiangcy1994/seu_COVID_19
+
+
 # Usage
 
 Please install the userscript at: https://greasyfork.org/en/scripts/398138
