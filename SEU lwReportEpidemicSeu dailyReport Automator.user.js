@@ -23,6 +23,8 @@
     var timeoutBeforeClickingAdd = 8000;
     var timeoutBeforeClickingSave = 3000;
     var timeoutBeforeClickingConfirm = 3000;
+//Temperature setting
+    var temperature = "36.5";
 //==================================================
 
     function $(id){
@@ -61,6 +63,7 @@
         setTimeout(function(){
             $$("bh-mb-16")[1].childNodes[1].dispatchEvent(clickevt);
             setTimeout(function(){
+                $$("bh-mb-36")[3].childNodes[0].childNodes[0].childNodes[1].childNodes[1].value = temperature;
                 $("save").dispatchEvent(clickevt);
                 setTimeout(function(){
                     $$("bh-dialog-btn")[0].dispatchEvent(clickevt);
