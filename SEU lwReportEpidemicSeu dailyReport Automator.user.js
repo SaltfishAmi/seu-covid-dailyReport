@@ -3,7 +3,7 @@
 // @name:zh      东南大学健康打卡自动化
 // @name:zh-CN   东南大学健康打卡自动化
 // @namespace    http://seu.saltfish.moe/
-// @version      0.13
+// @version      0.14
 // @license      Anti 996 License
 // @description  Automatically completes the health daily report during the Wuhan pneumonia pandemic.
 // @description:zh 自动完成东南大学线上服务健康打卡过程。
@@ -24,7 +24,7 @@
     var timeoutBeforeClickingSave = 3000;
     var timeoutBeforeClickingConfirm = 3000;
 //Temperature setting
-    var temperature = "36.5";
+    var temperature = String((361 + Math.floor(Math.random() * 10))/10.0);
 //==================================================
 
     function $(id){
