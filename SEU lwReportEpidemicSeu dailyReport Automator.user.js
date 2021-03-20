@@ -46,7 +46,7 @@
  *
  * Licensed under the MIT License.
  *
- * Written by Sander Laarhoven <github.com/lesander>
+ * Written by lesander <github.com/lesander>
  * For Doorbell.io <3
  * https://git.io/console
  * https://doorbell.io
@@ -100,7 +100,7 @@ window.console._collect = function (type, args) {
   }
   window.console.history.push({ type: type, timestamp: time, arguments: args, stack: stack })
 }
-/* End of console-history.js (c) 2016-2019 Sander Laarhoven*/
+/* End of console-history.js (c) 2016-2019 lesander */
 
     if(username=="username"){
         // username check
