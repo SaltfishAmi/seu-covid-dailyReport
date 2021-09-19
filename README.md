@@ -1,3 +1,7 @@
+# No longer maintained
+
+This project is no longer maintained because the developer no longer lives in the campus.
+
 # seu-covid-dailyReport 
 
 Automates the process of your daily health report on the Southeast University eHall, during the COVID-19 pandemic.
